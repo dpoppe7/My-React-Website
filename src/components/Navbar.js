@@ -1,8 +1,10 @@
 import { logDOM } from '@testing-library/dom';
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
 import './Navbar.css';
 import {Button} from './Button'
+import { cleanup } from '@testing-library/react';
+import { Redirect } from 'react-router-dom';
 
 
 function Navbar() {

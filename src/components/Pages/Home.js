@@ -1,12 +1,16 @@
-import React from 'react'
-import '../../App.css'
-import HeroSection from '../HeroSection'
+import React from 'react';
+import '../../App.css';
+import AboutSection from '../AboutSection';
+import HeroSection from '../HeroSection';
 
 function Home() {
     return (
-        <>  
+        <div>  
             <HeroSection/>
-        </>
+            <div>  
+                 <AboutSection/>
+            </div>
+        </div>
     )
 }
 

@@ -1,15 +1,18 @@
 .navbar {
+  margin: -15px;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
     position: sticky;
+    background-color: #FFF9F3;
     top: 0;
     z-index: 999;
 }
 
 .navbar-container {
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,8 +160,8 @@
     transition: all 0.3s ease-out;
   }
 
-    .nav-links-mobile:hover {
-        background-color: rgb(255,49,173 , 0.2);
-        transition: 250ms;
-    }  
+  .nav-links-mobile:hover {
+      background-color: rgb(255,49,173 , 0.2);
+      transition: 250ms;
+  }    
 }
