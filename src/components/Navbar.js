@@ -14,9 +14,9 @@ function Navbar() {
 
     const showButton = () => {
         if (window.innerWidth <= 960) {
-        setButton(false);
+            setButton(false);
         } else {
-        setButton(true);
+            setButton(true);
         }
     };
 
@@ -26,7 +26,7 @@ function Navbar() {
     <nav className="navbar">
         <div className="navbar-container">
             <Link to='/'>
-                <img src="icons/logo.png" alt="Logo" className="navbar-logo"/>
+                <img src="icons/logo.png" alt="Logo" className="navbar-logo" onClick={closeMobileMenu}/>
             </Link>
             <div className="menu-icon" onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
