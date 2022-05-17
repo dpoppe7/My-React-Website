@@ -3,8 +3,6 @@ import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
 import './Navbar.css';
 import {Button} from './Button'
-import { cleanup } from '@testing-library/react';
-import { Redirect } from 'react-router-dom';
 
 
 function Navbar() {

@@ -25,10 +25,9 @@ video {
     font-weight: lighter;
     margin-top: 2px;
     color: #FF31AD;
-    padding-left: 40vh;
     font-family: 'HelveticaNeue-Light';
     letter-spacing: 1.5px;
-    text-align: left;
+    padding-left: 20vh; 
 } 
 
 
@@ -37,23 +36,23 @@ video {
     color: rgb(255, 255, 255);
     font-size: 100px;
     font-family: 'AvenirNextCondensed-UltraLight' ;
-    padding-left: 39vh;
     margin-top: -25px;
+    padding-left: 19vh; 
 }
 
 .hero-container >  p {
-    margin-top: 8px;
+    
     font-weight: 100;
     color: rgb(189, 188, 188);
-    padding-left: 40vh;
-    padding-right: 45vh;
-    font-size: 18px;
+    font-size: 18px !important;
     margin-top: -50px;
+    padding-left: 20vh;  
+    padding-right: 40vh; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .hero-btns{
-    padding-left: 40vh;
+    padding-left: 20vh;
     margin-top: 32px;
 }
 
@@ -66,28 +65,53 @@ video {
 }
 
 @media screen and (max-width: 960px){
+    .hero-container > h2{
+        font-size: 20px;
+        font-weight: lighter;
+        color: #FF31AD;
+        font-family: 'HelveticaNeue-Light';
+        letter-spacing: 1.5px;
+        padding-left: 20vh; 
+    
+    } 
+    
     .hero-container > h1{
-        font-size: 70px;
-        margin-top: -150px;
+        font-size: 70px !important;
+        margin-top: -20px;
+        padding-left: 19.5vh !important; 
+    }
+
+    .hero-container >  p {
+        padding-left: 20vh;  
+        padding-right: 10vh; 
+    }
+
+    .hero-btns{
+        margin-top: 32px;
+    }
+    
+    .hero-btns .btn{
+        margin:6px;
     }
 }
 
 @media screen and (max-width:758px){
     .hero-container > h1{
-        font-size: 50px;
-        margin-top: -100px;
+        font-size: 50px !important;
+        margin-top: -20px;
+        
     }
 
     .hero-container > p{
-        font-size: 30px;
+        padding-top: 20px;
+        font-size: 18px !important;
     }
 
-    .btn-mobile{
-        display: block;
-        text-decoration: none;
+    .hero-btns{
+        margin-top: 32px;
     }
-
-    .btn {
-        width: 100%;
+    
+    .hero-btns .btn{
+        margin:6px;
     }
 }

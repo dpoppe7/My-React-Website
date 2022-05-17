@@ -9,13 +9,6 @@
     border: none;
     cursor: pointer;
 }
-
-
-@media screen and (max-width: 960px) {
-    .btn--outline {
-        display: none;
-    }
-}
   
 .btn--primary {
     background-color: var(--primary);
