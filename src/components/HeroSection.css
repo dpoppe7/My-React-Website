@@ -1,3 +1,8 @@
+.scroller {
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+  }
+
 video {
     object-fit: cover;
     width: 100%;

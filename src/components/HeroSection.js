@@ -6,7 +6,7 @@ import './HeroSection.css';
 
 function HeroSection() {
   return (
-    <div className='hero-container'>
+    <div className='hero-container' id="hero-section">
         <video src="/videos/video-2.mp4" autoPlay loop muted/>
         <h2>Hi, my name is</h2>
         <h1>Damaris Poppe.</h1>

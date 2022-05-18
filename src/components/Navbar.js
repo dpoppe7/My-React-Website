@@ -1,8 +1,8 @@
 import { logDOM } from '@testing-library/dom';
 import React, { useState } from 'react';
-import {Link} from 'react-router-dom';
+import {Link} from "react-scroll";
 import './Navbar.css';
-import {Button} from './Button'
+import {Button} from './Button';
 
 
 function Navbar() {
@@ -34,21 +34,21 @@ function Navbar() {
 
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className='nav-item'>
-                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to="hero-section" spy={true} smooth={true} offset={50} duration={500} className='nav-links' onClick={closeMobileMenu}>
                         HOME
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to="about-section" spy={true} smooth={true} offset={50} duration={500} className='nav-links' onClick={closeMobileMenu}>
                         ABOUT
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/projects' spy={true} smooth={true} offset={50} duration={500} className='nav-links' onClick={closeMobileMenu}>
                         PROJECTS
                     </Link>
                 </li>
-                <li className='nav-item'>
+                {/* <li className='nav-item'>
                     <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
                         CONTACT
                     </Link>
@@ -57,7 +57,7 @@ function Navbar() {
                     <Link to='/Resume' className='nav-links-mobile' onClick={closeMobileMenu}>
                         RESUME
                     </Link>
-                </li>
+                </li> */}
 
             </ul>
             {button && <Button buttonStyle='btn--outline'>RESUME</Button>}
