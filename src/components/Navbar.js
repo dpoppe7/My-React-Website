@@ -34,30 +34,70 @@ function Navbar() {
 
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className='nav-item'>
-                    <Link to="hero-section" spy={true} smooth={true} offset={50} duration={500} className='nav-links' onClick={closeMobileMenu}>
+                    <Link 
+                        to="hero-section" 
+                        spy={true} 
+                        smooth={true} 
+                        offset={50} 
+                        duration={500} 
+                        className='nav-links' 
+                        onClick={closeMobileMenu}
+                    >
                         HOME
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to="about-section" spy={true} smooth={true} offset={50} duration={500} className='nav-links' onClick={closeMobileMenu}>
+                    <Link 
+                        to="about-section" 
+                        spy={true} 
+                        smooth={true} 
+                        offset={50} 
+                        duration={500} 
+                        className='nav-links' 
+                        onClick={closeMobileMenu}
+                    >
                         ABOUT
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/projects' spy={true} smooth={true} offset={50} duration={500} className='nav-links' onClick={closeMobileMenu}>
+                    <Link 
+                        to="projects-section" 
+                        spy={true} 
+                        smooth={true} 
+                        offset={50} 
+                        duration={500} 
+                        className='nav-links' 
+                        onClick={closeMobileMenu}
+                    >
                         PROJECTS
                     </Link>
                 </li>
-                {/* <li className='nav-item'>
-                    <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+                <li className='nav-item'>
+                    <Link 
+                        to='/contact' 
+                        spy={true} 
+                        smooth={true} 
+                        offset={50} 
+                        duration={500} 
+                        className='nav-links' 
+                        onClick={closeMobileMenu}
+                    >
                         CONTACT
                     </Link>
                 </li>
                 <li>
-                    <Link to='/Resume' className='nav-links-mobile' onClick={closeMobileMenu}>
+                    <Link 
+                        to="hero-section" 
+                        spy={true} 
+                        smooth={true} 
+                        offset={50} 
+                        duration={500} 
+                        className='nav-links-mobile' 
+                        onClick={closeMobileMenu}
+                    >
                         RESUME
                     </Link>
-                </li> */}
+                </li>
 
             </ul>
             {button && <Button buttonStyle='btn--outline'>RESUME</Button>}
