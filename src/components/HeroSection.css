@@ -1,7 +1,7 @@
 .scroller {
     overflow-y: scroll;
     scrollbar-color: rebeccapurple green;
-  }
+}
 
 video {
     object-fit: cover;
@@ -57,7 +57,7 @@ video {
 
 .hero-btns{
     padding-left: 20vh;
-    margin-top: 32px;
+    margin-top: 10px;
 }
 
 .hero-btns .btn{
@@ -76,7 +76,6 @@ video {
         font-family: 'HelveticaNeue-Light';
         letter-spacing: 1.5px;
         padding-left: 20vh; 
-    
     } 
     
     .hero-container > h1{
@@ -91,7 +90,7 @@ video {
     }
 
     .hero-btns{
-        margin-top: 32px;
+        margin-top: 10px;
     }
     
     .hero-btns .btn{
@@ -101,7 +100,8 @@ video {
 
 @media screen and (max-width:758px){
     .hero-container > h2{
-        padding-left: 16.5vh; 
+        padding-left: 16.5vh;
+        font-size: 15px; 
     } 
 
     .hero-container > h1{
@@ -112,18 +112,18 @@ video {
 
     .hero-container > p{
         padding-top: 20px;
-        font-size: 18px !important;
+        font-size: 15px !important;
         padding-left: 16vh !important; 
     }
 
     .hero-btns{
-        margin-top: 32px;
+        margin-top: 10px;
         padding-left: 16vh !important; 
-
     }
     
     .hero-btns .btn{
         margin:6px;
+        font-size: 13px !important;
     }
 }
 
@@ -145,7 +145,8 @@ video {
 }
 span {
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-family: 'AvenirNextCondensed-UltraLight';
+    font-size: 1rem;
     display: block;
     transform: rotate(-90deg) translateX(-100%) translateY(-10px);
 }
