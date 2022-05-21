@@ -1,5 +1,5 @@
 import { logDOM } from '@testing-library/dom';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {Link} from "react-scroll";
 import './Navbar.css';
 import {Button} from './Button';
@@ -19,6 +19,10 @@ function Navbar() {
             setButton(true);
         }
     };
+
+    useEffect(() =>{
+        showButton()
+    }, []);
 
     window.addEventListener('resize', showButton);
 

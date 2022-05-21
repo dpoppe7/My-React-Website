@@ -146,6 +146,7 @@ video {
 span {
     text-transform: uppercase;
     font-family: 'AvenirNextCondensed-UltraLight';
+    color: #0E1F39;
     font-size: 1rem;
     display: block;
     transform: rotate(-90deg) translateX(-100%) translateY(-10px);
